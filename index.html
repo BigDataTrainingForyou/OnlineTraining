@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
+    <title>Trainings</title>
+    
+    <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -11,59 +12,60 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
-  </style>
+<script src="app.js"></script>
 </head>
-<body>
+
+
+ <body>
+<!--angular-app-->
+<div ng-app="myApp">
+  <div ng-controller="ctrlApp" id="myApp">
+
 <div class="parallax">
-<div class="container">
-  <br>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="images/hadoop.png" alt="Chania" width="460" height="345">
-      </div>
+<div class="sample5">
+    <div class="header">
+         <h1><center>ONLINE TRAINING AND REAL TIME PROJECTS</center></h1>
+         <h1><center><p class="blink_me">Free Courses for Physically Challenged people</p><center></h1>
 
-      <div class="item">
-        <img src="images/spark.png" alt="Chania" width="460" height="345">
-      </div>
-    
-      <div class="item">
-        <img src="images/bigdata.png" alt="Flower" width="460" height="345">
-      </div>
 
-      <div class="item">
-        <img src="images/datascience.png" alt="Flower" width="460" height="345">
-      </div>
-    </div>
+<div 
+            style="width:170px;
+            height:170px;
+            background:#CC0000;
+            color:#FFF;
+            padding:5px 2px;
+            text-align:center;
+            top:25px;
+            position:absolute;
+            right:25px;
+            ">
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+          Contact: +91-8861408377
+Email: prasadmdone@gmail.com
+Online and Class room Trainings available for affordable fees and with projects
+
+        </div>
+       <!--  <nav class="{{active}}" ng-click="$event.preventDefault()">-->
+
+      <!-- When a link in the menu is clicked, we set the active variable -->
+
+      <!--<a href="#" class="home" ng-click="active='home'">Home</a>
+  
+      <a href="#" class="about" ng-click="active='about'">About</a>-->
+    <!--  <a href="#" class="contact" ng-click="active='contact'">Contact</a>
+      <div class="marquee">
+  <div>
+    <span>Contact: 0091-8861408377
+Email: prasadmdone@gmail.com</span>
+   
   </div>
-</div>
-
-<div class="container">
+</div>-->
+     <br>
+    <!--</nav>-->
+    </div>
+  </div>
+    <div class="container">
  
   <button type="button" class="btn btn-info">Online Training Courses</button>
   <button type="button" class="btn btn-info">Big Data Training</button>
@@ -73,78 +75,262 @@
   <button type="button" class="btn btn-info">Kafka Training</button>      
 </div>
 
-<!-- code for toggle sections
-<button class="accordion">Section 1</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+<!--<div class="row">
+    <div class="col-sm-4" style="background-color:lavender;height:100px;borderwidth:1">.col-sm-4</div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+  </div>-->
+
+
+    <div class="content">
+        <div class="col1">
+           <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <!-- front content -->
+           
+            <article>
+        <h1><center> Spark</center></h1>
+    </article>
+        </div>
+        <div class="back">
+            <!-- back content -->
+
+            <h1><center> Kafka</center></h1>
+        </div>
+    </div>
+</div>
+        </div>
+        <div class="col2">
+           <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <!-- front content -->
+            <article>
+        <h1><center>Mongo DB</center></h1>
+        <p>
+        </p>
+    </article>
+        </div>
+        <div class="back">
+            <!-- back content -->
+ <h1><center>Cassandra</center></h1>
+               </div>
+    </div>
+</div>
+        </div>
+        <div class="col3">
+           <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <!-- front content -->
+            <article>
+        <h1><center>Phython,Java</center></h1>
+        <p>
+        </p>
+    </article>
+        </div>
+        <div class="back">
+            <!-- back content -->
+ <h1><center>Scala</center></h1>
+               </div>
+    </div>
+</div>
+        </div>
+        <div class="col4">
+             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <!-- front content -->
+            <article>
+        <h1><center>R,Nifi</center></h1>
+        <p>
+        </p>
+    </article>
+        </div>
+        <div class="back">
+            <!-- back content -->
+ <article>
+        <h1><center>
+            Presto</center></h1></article>
+        </div>
+    </div>
+</div>
+        </div>
+
+         <div class="col5">
+           <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <!-- front content -->
+           
+            <article>
+        <h1><center> Machine Learning</center></h1>
+    </article>
+        </div>
+        <div class="back">
+            <!-- back content -->
+
+            <h1><center> Algorithms</center></h1>
+        </div>
+    </div>
+</div>
+        </div>
+         <div class="col6">
+           <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <!-- front content -->
+           
+            <article>
+        <h1><center> Cloudera</center></h1>
+    </article>
+        </div>
+        <div class="back">
+            <!-- back content -->
+
+            <h1><center> Hortonworks</center></h1>
+        </div>
+    </div>
+</div>
+        </div>
+         <div class="col7">
+           <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <!-- front content -->
+           
+            <article>
+        <h1><center> MapR</center></h1>
+    </article>
+        </div>
+        <div class="back">
+            <!-- back content -->
+
+            <h1><center> IBM Biginsights</center></h1>
+        </div>
+    </div>
+</div>
+        </div>
+         <div class="col8">
+           <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <!-- front content -->
+           
+            <article>
+        <h1><center> Big Data</center></h1>
+    </article>
+        </div>
+        <div class="back">
+            <!-- back content -->
+
+            <h1><center> Data Science</center></h1>
+        </div>
+    </div>
+</div>
+        </div>
+         <div class="col9">
+           <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <!-- front content -->
+           
+            <article>
+        <h1><center> Kibana</center></h1>
+    </article>
+        </div>
+        <div class="back">
+            <!-- back content -->
+
+            <h1><center> Logstash, Elastic Search</center></h1>
+        </div>
+    </div>
+</div>
+        </div>
+         <div class="col10">
+           <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <!-- front content -->
+           
+            <article>
+        <h1><center> HADOOP and Ecosystem</center></h1>
+    </article>
+        </div>
+        <div class="back">
+            <!-- back content -->
+
+            <h1><center> YARN, Map Reduce, HBase, Hive, Pig, Sqoop, Flume, Zookeeper, Oozie etc...</center></h1>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+
+
+
+ <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+<div class="panel panel-default">
+                <div class="panel-heading collapsed" data-toggle="collapse" data-target="#collapse2">
+                  <h3 class="panel-title">
+                    KEY FEATURES
+                  </h3>
+                </div>
+                <div id="collapse2" class="collapse">
+                  <div class="panel-body">
+                     
+                        <p><ul>
+<li>Master fundamentals of Hadoop 2.7 and YARN and write applications using them</li>
+<li>Setting up Pseudo node and Multi node cluster on Amazon EC2</li>
+<li>Master HDFS, MapReduce, Hive, Pig, Oozie, Sqoop, Flume, Oozie, Pig, Zookeeper, HBase</li>
+<li>Learn Spark, Spark RDD, Graphx, MLlib writing Spark applications</li>
+<li>Master Hadoop administration activities like cluster managing,monitoring,administration and troubleshooting</li>
+<li>Configuring ETL tools like Pentaho/Talend to work with MapReduce, Hive, Pig, etc</li>
+<li>Detailed understanding of Big Data analytics</li>
+<li>Hadoop testing applications using MR Unit and other automation tools.</li>
+<li>Work with Avro data formats</li>
+<li>Practice real-life projects using Hadoop and Apache Spark</li>
+<li>Be equipped to clear Big Data Hadoop Certification.</li></ul></p>
+                     
+                      
+                      <p>Wow, that's clever!</p>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+               <div class="panel panel-info">
+                <div class="panel-heading collapsed" data-toggle="collapse" data-target="#collapse3">
+                  <h3 class="panel-title">
+                   What’s the focus of this course?
+                  </h3>
+                </div>
+                <div id="collapse3" class="collapse">
+                  <div class="panel-body">
+                   
+                        <p>Mastering Hadoop and related tools:
+Mastering real-time data processing using Spark: </p>
+                  
+                      
+                   
+                  </div>
+                </div>
+              </div>
+
+</div>
+</div>
 </div>
 
-<button class="accordion">Section 2</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<button class="accordion">Section 3</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    }
-}
-</script>
-
-code ends for toggle section -->
 
 
-
-<!--<div style="height:100px;background-color:red;font-size:36px">
-Scroll Up and Down this page to see the parallax scrolling effect.
-This div is just here to enable scrolling.
-Tip: Try to remove the background-attachment property to remove the scrolling effect.
-</div>-->
-<section class="w3-row-padding w3-center w3-light-grey">
-  <article class="w3-third">
-    <p></p>
-    <img src="images/training1.png" alt="Random Name" style="width:100%">
-    <p></p>
-  </article>
-  <article class="w3-third">
-    <div style="height:100px;background-color:none;font-size:36px">
-Scroll Up and Down this page to see the parallax scrolling effect.
-This div is just here to enable scrolling.
-
-</div>
-  </article>
-  <article class="w3-third">
-   <div style="height:100px;background-color:none;font-size:36px">
-Scroll Up and Down this page to see the parallax scrolling effect.
-This div is just here to enable scrolling.
-
-</div>
-  </article>
-  <article class="w3-third">
-   <div style="height:100px;background-color:none;font-size:36px">
-Scroll Up and Down this page to see the parallax scrolling effect.
-This div is just here to enable scrolling.
-Tip: Try to remove the background-attachment property to remove the scrolling effect.
-</div>
-  </article>
-</section>
-
-<footer className="header">
+<footer className="footer">
 
 
    <div class="text-center center-block">
@@ -153,9 +339,19 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
                 <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
               <a href="https://twitter.com/BigDatamatica"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
               <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-              <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+              <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>  <hr />
+        Copyright (C) 2016. All rights reserved.
 </div>
   </footer>
+
+   
 </div>
+
+
+</div>
+
+
+
+
 </body>
 </html>
